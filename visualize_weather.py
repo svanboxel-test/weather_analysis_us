@@ -101,4 +101,4 @@ plt.ylim(-15, 111)
 plt.grid(False)
 
 plt.title('Philadelphia, PA\'s weather, July 2014 - June 2015\n\n', fontsize=20)
-plt.savefig('output/houston-weather-july14-june15.png')
+plt.savefig('output/philadelphia-weather-july14-june15.png')
