@@ -10,7 +10,7 @@ this code slightly to read that city's data in, change the title, and
 likely change the y-axis of the chart to fit your city's temperature range.
 '''
 
-weather_data = pd.read_csv('KHOU.csv', parse_dates=['date'])
+weather_data = pd.read_csv('KPHL.csv', parse_dates=['date'])
 print(weather_data.describe())
 
 # Generate a bunch of histograms of the data to make sure that all of the data
@@ -100,5 +100,5 @@ plt.yticks(range(-10, 111, 10), [r'{}$^\circ$'.format(x)
 plt.ylim(-15, 111)
 plt.grid(False)
 
-plt.title('Houston\'s weather, July 2014 - June 2015\n\n', fontsize=20)
+plt.title('Philadelphia, PA\'s weather, July 2014 - June 2015\n\n', fontsize=20)
 plt.savefig('output/houston-weather-july14-june15.png')
