@@ -100,5 +100,5 @@ plt.yticks(range(-10, 111, 10), [r'{}$^\circ$'.format(x)
 plt.ylim(-15, 111)
 plt.grid(False)
 
-plt.title('Philadelphia, PA\'s weather, July 2014 - June 2015\n\n', fontsize=20)
+plt.title('Houston, TX\'s weather, July 2014 - June 2015\n\n', fontsize=20)
 plt.savefig('output/philadelphia-weather-july14-june15.png')
